@@ -22,7 +22,7 @@ const Checkout = () => {
   const totalAmount = cartItems.reduce((sum, item) => sum + item.price * item.quantity, 0);
 
   // IMPORTANT: Replace this with your actual Firebase Function URL after deployment
-  const FIREBASE_FUNCTION_URL = "http://127.0.0.1:5001/fir-admin-d1ae6/us-central1/api";
+  const FIREBASE_FUNCTION_URL = "https://api-ffxb4hjlga-uc.a.run.app/";
 
   const handlePayment = async () => {
     // Validation
