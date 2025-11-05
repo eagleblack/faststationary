@@ -19,7 +19,7 @@ const PaymentStatus = () => {
 
   // Replace with your Firebase Function URL
   const FIREBASE_FUNCTION_URL =
-    "http://127.0.0.1:5001/fir-admin-d1ae6/us-central1/api";
+    "https://api-ffxb4hjlga-uc.a.run.app/";
 
   useEffect(() => {
     if (!orderId) {
